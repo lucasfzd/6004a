@@ -1,1 +1,28 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    println("Hello, world!!!")
+}
+//variaveis
+//
+//var - mutavel - seu valor pode ser alterado
+//val - nao mutavel - nao e possivel alterar seu valor
+//
+//tipos de variaveis 
+//
+//boolean - verdadeiro ou falso 
+//string - qualque texto de qualque tamanho dentro de "" --> ex: "pizza"
+//char - apenas um caracter dentro de ''  --> ex: 'a'
+//int - numeros inteiros --> ex: 6 
+//double - numeros decimais (de formar arredomdada) --> ex: 71.23 
+//long - numeros reais (de forma longa) -->  ex: 500000000000000000
+//float - numeros decimais (de forma definitiva)  --> ex: 71.2314165646868
+//
+//estrutura de uma variavel
+//
+//var nomeDela = "valor"
+//var nomeDela = string
+//concatenacao       
 
