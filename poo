@@ -1,1 +1,95 @@
 
+fun main() {
+   /*
+    val pessoa1 = pessoa() //criando um obj
+    //println(pessoa1.altura) //exibe um atributo de obj
+    println(pessoa1.nome)
+    pessoa1.nome = "jose" //alterando o atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10 
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39 
+    pessoa1.idade = 27 
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}, ${pessoa1.nome},")
+    
+   val pessoa2 = pessoa()
+   //pessoa2.nome = "junin"
+   println(pessoa2.nome)
+   pessoa2.peso = 40.08 
+   pessoa2.altura = 1.60
+   pessoa2.idade = 25 
+   pessoa2.nacionalidade = "brasil" 
+   println("${pessoa2.nome}, ${pessoa2.idade}, ${pessoa2.peso}, ${pessoa2.altura}, ${pessoa2.nacionalidade}")
+   
+   
+   
+   val pessoa3 = pessoa()
+   pessoa3.nome = "lucas"
+   println(pessoa3.nome)
+   pessoa3.peso = 41.08 
+   pessoa3.altura = 1.70
+   pessoa3.idade = 20 
+   pessoa3.nacionalidade = "nigeria" 
+   println("${pessoa3.nome}, ${pessoa3.idade}, ${pessoa3.peso}, ${pessoa3.altura}, ${pessoa3.nacionalidade}")
+   
+   
+   
+   
+  
+    val pessoa4 = pessoa()
+   pessoa4.nome = "pedro"
+   println(pessoa4.nome)
+   pessoa4.peso = 42.05 
+   pessoa4.altura = 1.50
+   pessoa4.idade = 19 
+   pessoa4.nacionalidade = "africa" 
+   println("${pessoa4.nome}, ${pessoa4.idade}, ${pessoa4.peso}, ${pessoa4.altura}, ${pessoa4.nacionalidade}")
+   */
+   
+   
+   val bolo1 = bolo()
+   /*
+   val pessoa = pessoa()
+   println(pessoa2.altura)
+   */
+   
+   
+   
+   
+  }
+   
+   
+   
+   
+   
+   
+  
+
+
+
+
+
+class pessoa(){
+    //criacao de atributos para a classe pessoa
+    var nome = ""
+    var idade = 0 
+    var altura = 1.90 
+    var peso = 30.0 
+    var nacionalidade = "italiano"
+    
+}
+
+  class bolo(var sabor:string, var tamanho: string, var recheio:string, var cobertura: string, var preco: double, var complementos: string, var pronto
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
