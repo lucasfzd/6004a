@@ -32,7 +32,63 @@ fun main() {
    pessoa3.nacionalidade = "nigeria" 
    println("${pessoa3.nome}, ${pessoa3.idade}, ${pessoa3.peso}, ${pessoa3.altura}, ${pessoa3.nacionalidade}")
    
-   
+   fun main() {
+
+    
+    /*var animalzin = animal("raposa", "feneco", 0.70, 35.0, "onivora", 40.0)
+    animalzin.naopegue()
+    animalzin.correr(700.0)
+    animalzin.comer("galinha")
+    animalzin.rir()
+    */
+
+ 
+ var usuario = contabanco(-100.0, 1456156754784564156, 5018)
+ usuario.consultarsaldo(5018)
+}
+ 
+ class contabanco(var saldo: Double, var numeroconta: Long, var senhacorreta: Int){
+     
+    fun consultarsaldo(senha: Int){
+        
+      if(senha == senhacorreta){
+          println("saldo: R$$saldo")
+      }else{
+          println("senha incorreta")
+      }
+
+}  
+ }
+ /*class animal(
+ 
+ var especie: String,
+ var raca: String,    
+ var peso: Double,
+ var altura: Double,    
+ var dieta: String,  
+ var comprimento: Double   
+    
+     
+
+     
+){
+ 
+  fun correr(velocidade: Double){
+      println("correndo em uma velocidade de $velocidade km")
+  }
+  fun comer(comida: String){
+      println("comendo um(a) $comida ")
+  }
+   fun rir(){
+       println("rindo kk")
+   }
+    fun naopegue(){
+        println("repitam comigo!!")
+        println("raposo nao pegue!!")
+    }
+     
+     
+ }*/
    
    
   
